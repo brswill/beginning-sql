@@ -110,7 +110,7 @@ Essa query extrai da tabela `Member` as linhas que tem valor `Junior` de atribut
 |:---:|:---:|
 |`MemberType = 'Senior' AND Handicap < 12`|Seniores com valor abaixo de 12 no atributo `Handicap`|
 |`MemberType = 'Senior' AND Handicap < 12`|Todos os membros seniores assim como qualquer um com valor abaixo de 12 no atributo `Handicap`|
-|`NOT (MemberType = 'Social`)|Todos os membros exceto os que têm valor igual a `Social` no atributo `MemberType`|
+|`NOT (MemberType = 'Social')`|Todos os membros exceto os que têm valor igual a `Social` no atributo `MemberType`|
 
 
 ### Lidando com Nulls
